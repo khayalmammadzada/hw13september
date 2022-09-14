@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cyycko8YwZBW3wlAzdHYsG4ShsTiCv7mjA0+EEv7U7++7TTCVnknsyyp49ekdx49CygjYGQhanEHUS2iLu/0Jg==",
+  "dgSpecHash": "m0Rkk/Chx9ASFntB+jkbdaviFhm8keqU28xDsJMKWQz89xZeHnUc9tinytknfrsXfcFxjxM76dQsa14410igHw==",
   "success": true,
-  "projectFilePath": "/Users/khayalmammadzada/Desktop/Pronia_backend/ProniaWebsite/ProniaWebsite/ProniaWebsite.csproj",
+  "projectFilePath": "/Users/khayalmammadzada/Desktop/hw13september/Pronia_backend/ProniaWebsite/ProniaWebsite/ProniaWebsite.csproj",
   "expectedPackageFiles": [
     "/Users/khayalmammadzada/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/khayalmammadzada/.nuget/packages/microsoft.bcl.hashcode/1.1.1/microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/khayalmammadzada/Desktop/Pronia_backend/ProniaWebsite/ProniaWebsite/ProniaWebsite.csproj": {}
+    "/Users/khayalmammadzada/Desktop/hw13september/Pronia_backend/ProniaWebsite/ProniaWebsite/ProniaWebsite.csproj": {}
   },
   "projects": {
-    "/Users/khayalmammadzada/Desktop/Pronia_backend/ProniaWebsite/ProniaWebsite/ProniaWebsite.csproj": {
+    "/Users/khayalmammadzada/Desktop/hw13september/Pronia_backend/ProniaWebsite/ProniaWebsite/ProniaWebsite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/khayalmammadzada/Desktop/Pronia_backend/ProniaWebsite/ProniaWebsite/ProniaWebsite.csproj",
+        "projectUniqueName": "/Users/khayalmammadzada/Desktop/hw13september/Pronia_backend/ProniaWebsite/ProniaWebsite/ProniaWebsite.csproj",
         "projectName": "ProniaWebsite",
-        "projectPath": "/Users/khayalmammadzada/Desktop/Pronia_backend/ProniaWebsite/ProniaWebsite/ProniaWebsite.csproj",
+        "projectPath": "/Users/khayalmammadzada/Desktop/hw13september/Pronia_backend/ProniaWebsite/ProniaWebsite/ProniaWebsite.csproj",
         "packagesPath": "/Users/khayalmammadzada/.nuget/packages/",
-        "outputPath": "/Users/khayalmammadzada/Desktop/Pronia_backend/ProniaWebsite/ProniaWebsite/obj/",
+        "outputPath": "/Users/khayalmammadzada/Desktop/hw13september/Pronia_backend/ProniaWebsite/ProniaWebsite/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/khayalmammadzada/.config/NuGet/NuGet.Config"

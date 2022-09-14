@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using ProniaWebsite.DAL;
 using ProniaWebsite.Models;
+using ProniaWebsite.ViewModels.Home;
 //using ProniaWebsite.Models;
 
 namespace ProniaWebsite.Controllers
@@ -14,15 +15,17 @@ namespace ProniaWebsite.Controllers
     public class HomeController : Controller
     {
         ProniaContext _context;
-            public HomeController(ProniaContext context)
+
+       public HomeController(ProniaContext context)
         {
             _context = context;
         }
 
         public IActionResult Index()
         {
-            IEnumerable<Slider> sliders = _context.Sliders;
-            return View();
+            HomeVM vm = new HomeVM();
+            vm.Sliders = _context.Sliders.OrderBy(x => x.Order);
+            return View(vm);
         }
 
         

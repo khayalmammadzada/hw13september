@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProniaWebsite.DAL;
 
 namespace ProniaWebsite.Dal.Migrations
 {
     [DbContext(typeof(ProniaContext))]
-    partial class ProniaContextModelSnapshot : ModelSnapshot
+    [Migration("20220914210402_CreatedProductandImagesTable")]
+    partial class CreatedProductandImagesTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

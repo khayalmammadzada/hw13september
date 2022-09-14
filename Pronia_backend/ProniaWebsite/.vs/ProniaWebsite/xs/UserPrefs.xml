@@ -1,18 +1,21 @@
 ﻿<Properties StartupConfiguration="{72466A6B-E2D8-4EE5-A1A6-0B4D1A77498B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ProniaWebsite/DAL/Migrations/20220912233052_SlidersTable.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProniaWebsite/DAL/Migrations/20220913230625_AddedIsActiveColumnToServices.cs">
     <Files>
-      <File FileName="ProniaWebsite/Startup.cs" Line="29" Column="60" />
-      <File FileName="ProniaWebsite/Controllers/HomeController.cs" Line="8" Column="30" />
-      <File FileName="ProniaWebsite/Views/_ViewStart.cshtml" Line="1" Column="1" />
-      <File FileName="ProniaWebsite/Views/Shared/_Layout.cshtml" Line="163" Column="55" />
-      <File FileName="ProniaWebsite/Views/Home/Index.cshtml" Line="2181" Column="22" />
-      <File FileName="ProniaWebsite/Views/_ViewImports.cshtml" Line="4" Column="1" />
-      <File FileName="ProniaWebsite/DAL/ProniaContext.cs" Line="15" Column="6" />
-      <File FileName="ProniaWebsite/appsettings.json" Line="7" Column="32" />
-      <File FileName="ProniaWebsite/appsettings.Development.json" Line="1" Column="1" />
-      <File FileName="ProniaWebsite/Models/Slider.cs" Line="20" Column="20" />
-      <File FileName="ProniaWebsite/Dal/Migrations/20220912222546_CreatedSlidersTable.cs" Line="19" Column="26" />
-      <File FileName="ProniaWebsite/Dal/Migrations/20220912233052_SlidersTable.cs" Line="1" Column="1" />
+      <File FileName="ProniaWebsite/Models/Service.cs" Line="15" Column="1" />
+      <File FileName="ProniaWebsite/DAL/ProniaContext.cs" Line="7" Column="42" />
+      <File FileName="ProniaWebsite/DAL/Migrations/ProniaContextModelSnapshot.cs" Line="1" Column="1" />
+      <File FileName="ProniaWebsite/Dal/Migrations/20220913220127_ServicesTable.cs" Line="27" Column="40" />
+      <File FileName="ProniaWebsite/DAL/Migrations/20220913172928_newtable.cs" Line="1" Column="1" />
+      <File FileName="ProniaWebsite/Controllers/HomeController.cs" Line="26" Column="38" />
+      <File FileName="ProniaWebsite/Views/Home/Index.cshtml" Line="20" Column="78" />
+      <File FileName="ProniaWebsite/ViewModels/Home/HomeVm.cs" Line="11" Column="1" />
+      <File FileName="ProniaWebsite/Views/_ViewImports.cshtml" Line="5" Column="1" />
+      <File FileName="ProniaWebsite/Dal/Migrations/20220913230625_AddedIsActiveColumnToServices.cs" Line="13" Column="19" />
+      <File FileName="ProniaWebsite/Models/Product.cs" Line="14" Column="1" />
+      <File FileName="ProniaWebsite/Models/BaseEntity.cs" Line="15" Column="1" />
+      <File FileName="ProniaWebsite/Models/ProductImage.cs" Line="10" Column="1" />
+      <File FileName="ProniaWebsite/Dal/Migrations/20220914210402_CreatedProductandImagesTable.cs" Line="1" Column="1" />
+      <File FileName="ProniaWebsite/Models/Slider.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,12 +25,16 @@
               <Node name="Controllers" expanded="True" />
               <Node name="DAL" expanded="True">
                 <Node name="Migrations" expanded="True">
-                  <Node name="20220912233052_SlidersTable.cs" selected="True" />
+                  <Node name="20220913230625_AddedIsActiveColumnToServices.cs" selected="True" />
                 </Node>
               </Node>
               <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True" />
-              <Node name="appsettings.json" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>

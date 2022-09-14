@@ -26,10 +26,10 @@ namespace ProniaWebsite
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<ProniaContext>(options =>
-            {
-                options.UseSqlServer(Configuration["ConnectionStrings:default"]);
-            });
+            services.AddDbContext<ProniaContext>(
+
+             options => options.UseSqlServer(@"Server=localhost;Database=Pronia;User=SA;Password=MyPassword123#")
+            );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -2,7 +2,7 @@
 
 namespace ProniaWebsite.Dal.Migrations
 {
-    public partial class SlidersTable : Migration
+    public partial class newtable : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
